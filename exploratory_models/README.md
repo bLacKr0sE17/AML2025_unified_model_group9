@@ -1,7 +1,14 @@
-# Exploratory / discarded models
+# Exploratory Models
 
-This directory contains exploratory and discarded model variants
-tested during development of the unified tabular model.
+This folder contains intermediate and exploratory model variants that were
+tested during development but not selected as the final submission.
 
-These models are **not** used for the final Kaggle submission.
-They are kept for transparency and analysis.
+These include:
+- alternative weighting strategies
+- different random seeds
+- dataset-only baselines
+- class-balanced variants
+- ablation experiments
+
+They are kept for transparency and reproducibility.
+The final selected model is documented in `/final_model/`.

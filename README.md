@@ -15,3 +15,7 @@ The final baseline model from Hugging Face and corresponding data are located in
 - `baseline_model.ipynb`: file with trained baseline model
 - `baseline_model.pkl`: baseline model saved as a pickle
 - `baseline_test_results_submission.csv`: results a the baseline model submitted to Kaggle (public score = 0.73190)
+
+
+## Exploratory models
+This repository serves a exploratory approach where the datasets were explored and different models compared on performance.

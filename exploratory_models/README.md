@@ -1,14 +1,14 @@
-# Exploratory Models
+## Exploratory Models
 
-This folder contains intermediate and exploratory model variants that were
-tested during development but not selected as the final submission.
+This directory contains exploratory notebooks and intermediate Kaggle submissions
+used during model development.
 
-These include:
-- alternative weighting strategies
-- different random seeds
-- dataset-only baselines
-- class-balanced variants
-- ablation experiments
+Experiments include:
+- early unified baselines
+- dataset-only and dataset-ID ablations
+- class-balanced and weighted LightGBM variants
+- different random seeds and loss functions
+- partial retraining and diagnostic submissions
 
-They are kept for transparency and reproducibility.
-The final selected model is documented in `/final_model/`.
+These experiments informed the design of the final unified LightGBM model,
+but are not part of the final submission.

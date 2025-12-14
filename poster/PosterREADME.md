@@ -11,5 +11,5 @@ Basic EDA (distributions, class imbalance), feature alignment across datasets, a
 # 3) Baseline development (TabSTAR)
 Developing a pre-trained model from HuggingFace and fitting all available data without balancing the model and predicting the accuracy on the test set
 
-#4) Unified model design & evaluation (LightGBM)
+# 4) Unified model design & evaluation (LightGBM)
 Building a single multiclass LightBGM model over the unified train data, addressing imbalance by weighting and comparing results against the baseline.

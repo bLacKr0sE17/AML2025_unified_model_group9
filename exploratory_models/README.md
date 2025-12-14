@@ -9,6 +9,7 @@ Experiments include:
 - class-balanced and weighted LightGBM variants
 - different random seeds and loss functions
 - partial retraining and diagnostic submissions
+- training the baseline model based on 11 classes
 
 These experiments informed the design of the final unified LightGBM model,
 but are not part of the final submission.

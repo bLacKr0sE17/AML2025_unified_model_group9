@@ -1,1 +1,15 @@
+## Project Poster 
 
+
+The poster reflects our journey to exploring the datasets, different models and developing the baseline. To reflect this most often iterative process, the following sections of the project were developed:
+# 1) Dataset understanding & preprocessing
+Initial inspection of HELOC, HIGGS, and Covertype, cleaning, handling missing values, and preparing consistent inputs.
+
+# 2) Exploratory analysis & feature considerations
+Basic EDA (distributions, class imbalance), feature alignment across datasets, and preliminary feature relevance checks (e.g., Mutual Information / PCA), fitting different models (Logistic Regression, Random Forest, Gradient Boosting, LightGBM)
+
+# 3) Baseline development (TabSTAR)
+Developing a pre-trained model from HuggingFace and fitting all available data without balancing the model and predicting the accuracy on the test set
+
+#4) Unified model design & evaluation (LightGBM)
+Building a single multiclass LightBGM model over the unified train data, addressing imbalance by weighting and comparing results against the baseline.

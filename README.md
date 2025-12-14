@@ -14,6 +14,17 @@ We explicitly verified the unified label space to ensure correct multiclass trai
 Unique targets: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 Number of classes: 11
 
+### 11-Class vs 9-Class Label Space
+
+**11-class unified setup (final model):**
+- Preserves the original label spaces of all three datasets
+- Avoids collapsing semantic meaning across different tasks
+- Treats each dataset’s prediction objective faithfully
+
+**9-class setup (ablation):**
+- Merges HELOC and HIGGS into a shared binary label space
+- Alters the semantic meaning of the prediction space
+- Included as a valid ablation experiment, but conceptually weaker for the unified task
 
 ## Baseline Model
 The baseline model was imported from dedicated website: https://huggingface.co/alana89/TabSTAR
